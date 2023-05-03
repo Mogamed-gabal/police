@@ -1,0 +1,32 @@
+<div class=" row w-100 d-flex ">
+    <div class="col-md-4  bg-primary ">
+        <div class="box pt-4 px-2">
+                <div class="img">
+                    <img class=" w-100" [src]="imgPrefix+token.img" alt="">
+                </div>
+            
+            <div class="services">
+                <ul class=" list-unstyled">
+                    <li>
+                        <a class=" px-2 my-1 btn btn-secondary" routerLink="/userPage/userLosted">Losted</a>
+                    </li>
+                    <li>
+                        <a class=" px-2 my-1 btn btn-secondary" routerLink="">Losted</a>
+                    </li>
+                    <li>
+                        <a class=" px-2 my-1 btn btn-secondary" routerLink="">Losted</a>
+                    </li>
+                    <li>
+                        <a class=" px-2 my-1 btn btn-secondary" routerLink="">Losted</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+            <router-outlet>
+                
+            </router-outlet>
+        
+    </div>
+</div>
